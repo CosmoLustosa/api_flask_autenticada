@@ -73,7 +73,7 @@ class ListaDevs(Resource):
 api.add_resource(Desenvolvedor, '/dev/<int:id>/')
 api.add_resource(ListaDevs, '/dev/')
 api.add_resource(Habilidades, '/habilidades/')
-
+api.add_resource(Pessoa, '/')
 
 if __name__ == '__main__':
     app.run(debug=True)
